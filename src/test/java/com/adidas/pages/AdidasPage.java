@@ -19,6 +19,19 @@ public class AdidasPage {
 
     // locators
     // useful methods
+    /*
+
+    String locator = "//a[.='Laptops']";
+
+    String category = "Laptops";
+
+    String locator2 = "//a[.='"+category+"']";
+
+
+
+     */
+
+
     @FindBy(xpath = "//h3[@class='price-container']")
     public WebElement purchasePrice;
 
