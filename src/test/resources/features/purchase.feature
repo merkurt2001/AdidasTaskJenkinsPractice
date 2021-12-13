@@ -3,6 +3,7 @@ Feature: Adidas Order Placement Functionalities
 
   Background: Go to home page
     Given User is on the Home Page
+
   @wip
   Scenario: Placing a successful order
     When User adds "Sony vaio i5" from "Laptops"
